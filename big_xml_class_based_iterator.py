@@ -47,7 +47,7 @@ def get_time() -> str:
 
 if __name__ == "__main__":
     out_name = __file__.split("\\")[-1].split(".")[0] + ".csv"
-    with XmlParser("Wpisy_Rpm.xml") as xml_file_iterator, open(
+    with XmlParser("objects.xml") as xml_file_iterator, open(
         out_name, "w"
     ) as out_file:
         out_file.write("Time, Used_Memory\n")

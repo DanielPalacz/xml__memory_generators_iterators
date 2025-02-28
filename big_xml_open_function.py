@@ -23,7 +23,7 @@ def get_time() -> str:
 
 if __name__ == "__main__":
     out_name = __file__.split("\\")[-1].split(".")[0] + ".csv"
-    with open("Wpisy_Rpm.xml", encoding="utf-8") as xml_file_read, open(
+    with open("objects.xml", encoding="utf-8") as xml_file_read, open(
         out_name, "w"
     ) as out_file:
         out_file.write("Time, Used_Memory\n")
