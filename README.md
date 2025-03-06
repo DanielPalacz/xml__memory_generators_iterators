@@ -19,10 +19,9 @@
 
 ## big_xml_open_function.py / big_xml_class_based_iterator.py
   * open()
-    * provides Iterator (not generator), but not load all file to RAM
-    * the same for iterating, it reads file line by line
+    * provides Iterator (not generator), and similar to generators it is not loading full file to RAM (unless you want)
 
-  * by using class based iterator, but in the end it uses open function
+  * using class based iterator, but in the end it uses open function
 
   * exercise was not correctly stated :)
     * there was not 'prove' that open provided Iterator works as expected ...
